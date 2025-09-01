@@ -1,0 +1,29 @@
+GET http://localhost:3000/users
+
+
+###
+
+GET http://localhost:3000/users/68b173b1523e857796b21d27
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Aviraj Kumar",
+    "department": "Computer Science with CyberSecurity"
+}
+
+
+###
+
+DELETE http://localhost:3000/users/68b173b1523e857796b21d27
+
+###
+
+PATCH  http://localhost:3000/users/68b17aa612980cdeca076427
+Content-Type: application/json
+
+{
+    "name": "Aviraj Ashok kumar"
+}
